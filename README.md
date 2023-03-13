@@ -45,12 +45,12 @@ go run .\cmd\server\server.go
 
 queryCategories
 <div align="center">
-<img src="/screenshots/queryCategories.png" width="400" />
+<img src="/screenshots/queryCategories.png" width="1400" height="283"/>
 </div> 
 
 queryCategories without description
 <div align="center">
-<img src="/screenshots/queryCategoriesWithoutDesc.png" width="400" />
+<img src="/screenshots/queryCategoriesWithoutDesc.png"  width="1400" height="283" />
 </div> 
 
 ### Useful commands
