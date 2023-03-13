@@ -19,12 +19,12 @@ It can be very useful in multiple cenarios, including integrating with BFF (back
 <b>graph</b> - all graphql configuration <br />
 &nbsp; | <b> model </b> - model structs <br />
 <b>internal</b> <br />
-&nbsp; | <b>internal/database</b> - services responsible to interact with database<br />
+&nbsp; | <b>database</b> - services responsible to interact with database<br />
 <b>db.sqlite</b> - in memory relational database
 
 
 # SQLite commands
-Two tables must be created:
+A table Categories and a table Courses must be created:
 ```
 create table categories (id string, name string, description string);
 ```
@@ -43,14 +43,14 @@ go run .\cmd\server\server.go
 <b>Query</b>: All query we need <br />
 <b>Mutation</b>: All intention types of change
 
-queryCategories
+* queryCategories
 <div align="center">
-<img src="/screenshots/queryCategories.png" width="1400" height="283"/>
+<img src="/screenshots/queryCategories.png" width="1443" height="304"/>
 </div> 
 
-queryCategories without description
+* queryCategories without description
 <div align="center">
-<img src="/screenshots/queryCategoriesWithoutDesc.png"  width="1400" height="283" />
+<img src="/screenshots/queryCategoriesWithoutDesc.png"  width="1439" height="283" />
 </div> 
 
 ### Useful commands
